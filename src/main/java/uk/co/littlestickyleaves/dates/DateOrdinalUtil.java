@@ -6,11 +6,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * A [class] to provide the following to [whatever]:
- * -- something
- * -- another thing
+ * A utility to format dates with the English ordinal
+ * -- takes a Temporal Accessor
+ * -- returns the day of the month with ordinal, e.g. 7th, 21st, &c
  */
-// TODO fill in JavaDoc properly
 public class DateOrdinalUtil {
 
     private static final String ST = "st";
